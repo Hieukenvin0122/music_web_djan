@@ -21,11 +21,18 @@ Chào mừng bạn đến với MusicBeats, một ứng dụng web Django cho ph
 ![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/8.JPG "MusicBeats - Nền tảng âm nhạc của bạn")
 
 *   **Kênh cá nhân:** Mỗi người dùng có một trang kênh riêng để hiển thị các bài hát đã tải lên.
+![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/9.JPG "MusicBeats - Nền tảng âm nhạc của bạn")
+
 *   **Nghe sau (Listen Later):** Thêm bài hát vào danh sách để thưởng thức sau.
+![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/10.JPG "MusicBeats - Nền tảng âm nhạc của bạn")
 *   **Bài hát yêu thích:** Lưu trữ những bài hát bạn yêu thích nhất.
+![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/11.JPG "MusicBeats - Nền tảng âm nhạc của bạn")
 *   **Lịch sử nghe nhạc:** Xem lại các bài hát bạn đã nghe.
+![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/12.JPG "MusicBeats - Nền tảng âm nhạc của bạn")
 *   **Thông tin chi tiết bài hát:** Xem thông tin về ca sĩ, tags, phim (nếu có), và mô tả.
+![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/13.JPG "MusicBeats - Nền tảng âm nhạc của bạn")
 *   **Tải xuống bài hát:** Người dùng có thể tải trực tiếp bài hát về máy.
+![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/14.JPG "MusicBeats - Nền tảng âm nhạc của bạn")
 *   **Giao diện người dùng thân thiện:** Được xây dựng với Bootstrap 4 để mang lại trải nghiệm người dùng tốt nhất.
 *   **Thông báo tương tác:** Sử dụng SweetAlert2 cho các thông báo và xác nhận thân thiện.
 

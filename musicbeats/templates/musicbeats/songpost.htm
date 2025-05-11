@@ -1,0 +1,72 @@
+{% extends 'musicbeats/basic.htm'%}
+{% block title%}All Songs{% endblock %}
+
+{% block body %}
+
+{% if message %}
+  <script >
+      Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: '{{message}}',
+      showConfirmButton: false,
+      timer: 1500
+    });
+  </script>
+{% endif %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6" style="padding-top: 3%;">
+      <img src="/media/{{song.image}}" alt="" height="350px" width="250px">
+    </div>
+        <div class="col-md-6">
+          <h2 style="padding-top: 6%; font-weight: 550; color: goldenrod;">Title: {{song.name}}</h2>
+          <h5 style="padding-top: 2%; font-weight: 550;">Category: {{song.tags}}</h5>
+          <h5 style="padding-top: 2%; font-weight: 550;">Movie: {{song.movie}}</h5>
+          <h5 style="padding-top: 2%; font-weight: 550;">Singer: {{song.singer}}</h5>
+        <h5 style="padding-top: 2%; font-weight: 550;">
+    Information: <a href="{% url 'song_info' song.song_id %}">See details</a>
+          </h5>
+          <audio controls style="width: 100%;"><source src="/media/{{song.song}}" type="audio/mp3"></audio> <!--tạo thanh audio-->
+            <div style="padding-top:10px;">
+            <button onclick="seekAudio(-10)" class="btn btn-secondary btn-sm">⏪ -10s</button>
+            <button onclick="seekAudio(10)" class="btn btn-secondary btn-sm"> +10s ⏩</button>
+          </div>
+          <script>
+          function seekAudio(seconds) {
+              var audio = document.querySelector('audio');
+              if (audio) {
+                  audio.currentTime += seconds;
+              }
+          }
+          </script>
+
+          <div style="padding-top: 2%;">
+
+          <div class="row">          
+            <form action="/musicbeats/watchlater" method="POST">{% csrf_token %}
+            <input type="hidden" name="video_id" value="{{song.song_id}}">
+            <button type="submit" class="btn btn-outline-danger">Add to Listen Later</button> <!--tạo thanh -->
+        </form> 
+        <form action="/musicbeats/favourite" method="POST" style="display:inline;">
+            {% csrf_token %}
+            <input type="hidden" name="song_id" value="{{song.song_id}}">
+            <button type="submit" class="btn btn-outline-primary ml-2">Add to Favourites</button>
+        </form>
+
+          <a download href="/media/{{song.song}}" style = "padding-left: 1%;"><button class="btn btn-outline-danger">Download Song</button> <!--tạo thanh tải xuống-->
+          </div>
+          </div>
+      </div>
+  </div>
+</div>
+<script>
+  
+</script>
+
+
+{% endblock %}
+{% block js %}
+
+{% endblock%}

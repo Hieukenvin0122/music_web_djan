@@ -1,0 +1,16 @@
+{% extends 'musicbeats/basic.htm' %}
+{% block title %}Information - {{ song.name }}{% endblock %}
+
+{% block body %}
+<div class="container" style="padding-top: 40px;">
+    <h2>Information: {{ song.name }}</h2>
+    <img src="/media/{{ song.image }}" alt="{{ song.name }}" style="max-width:250px;">
+    <ul style="list-style:none;">
+        <li><strong>Singer:</strong> {{ song.singer }}</li>
+        <li><strong>Tags:</strong> {{ song.tags }}</li>
+        <li><strong>Movie:</strong> {{ song.movie }}</li>
+        <li><strong>Credit/Description:</strong> {{ song.credit }}</li>
+    </ul>
+    <a href="/musicbeats/songs/{{ song.song_id }}" class="btn btn-primary">Back to Song</a>
+</div>
+{% endblock %}

@@ -1,6 +1,6 @@
 # 🎵 MusicBeats - Nền Tảng Stream Âm Nhạc Của Bạn 🎶
 
-![MusicBeats Logo or Placeholder Image](images/musicbeats_banner.png)
+
 
 Chào mừng bạn đến với MusicBeats, một ứng dụng web Django cho phép bạn và người dùng khác tải lên, quản lý, và thưởng thức âm nhạc yêu thích của mình. Với MusicBeats, bạn có thể tạo kênh cá nhân, khám phá các bài hát mới, quản lý danh sách nghe sau, và đánh dấu bài hát yêu thích.
 

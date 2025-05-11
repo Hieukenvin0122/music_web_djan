@@ -2,14 +2,24 @@
 
 ![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/1.JPG "MusicBeats - Nền tảng âm nhạc của bạn")
 
+
+
 Chào mừng bạn đến với MusicBeats, một ứng dụng web Django cho phép bạn và người dùng khác tải lên, quản lý, và thưởng thức âm nhạc yêu thích của mình. Với MusicBeats, bạn có thể tạo kênh cá nhân, khám phá các bài hát mới, quản lý danh sách nghe sau, và đánh dấu bài hát yêu thích.
 
 ## ✨ Tính năng nổi bật
 
 *   **Đăng ký & Đăng nhập:** Quản lý tài khoản người dùng an toàn.
+![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/5.JPG "MusicBeats - Nền tảng âm nhạc của bạn")
+
 *   **Tải lên âm nhạc:** Người dùng đã đăng nhập có thể tải lên các bài hát của riêng họ.
+![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/6.JPG "MusicBeats - Nền tảng âm nhạc của bạn")
+
 *   **Stream nhạc trực tuyến:** Nghe nhạc mượt mà ngay trên trình duyệt.
+![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/7.gif "MusicBeats - Nền tảng âm nhạc của bạn")
+
 *   **Tìm kiếm thông minh:** Dễ dàng tìm kiếm bài hát theo tên, ca sĩ, hoặc tags.
+![Banner giới thiệu MusicBeats, hiển thị giao diện người dùng chính](image_git/8.JPG "MusicBeats - Nền tảng âm nhạc của bạn")
+
 *   **Kênh cá nhân:** Mỗi người dùng có một trang kênh riêng để hiển thị các bài hát đã tải lên.
 *   **Nghe sau (Listen Later):** Thêm bài hát vào danh sách để thưởng thức sau.
 *   **Bài hát yêu thích:** Lưu trữ những bài hát bạn yêu thích nhất.
